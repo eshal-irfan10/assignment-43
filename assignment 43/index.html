@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <a href="#" onclick="showAlert()">Click me</a> -->
+    <!-- <img width="100px" height="100px" onclick="iphone()" src="https://tryitfirst.in/pub/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/i/p/iphone-13-pro-blue-select_2.png" alt="">
+    <img width="100px" height="100px" onclick="phone()" src="https://cdn.vox-cdn.com/thumbor/-TgFSRHiiymFCAjMzjp_QEUbezE=/0x0:2040x1360/1400x1400/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/19916261/vpavic_042020_3980_0037.jpg" alt="">
+    <img width="100px" height="100px" onclick="pinkiphone()" src="https://media.wired.com/photos/61439ca1ea5305148f36968a/1:1/w_1211,h_1211,c_limit/Gear-iphone13_sierra_blue__2bovafkl4yaa_large_2x.jpg" alt="">
+    <img width="100px" height="100px" onclick="iphone_()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqS-z3JjOeBEnJG3vaCJAycUyuU6vXeylyw&s" alt="">
+    <img width="100px" height="100px" onclick="_iphone()" src="https://external-preview.redd.it/rLvAJ3_BOgmBeFh86PyOfXz7judjvXpsyc3bmLAFjpg.jpg?width=640&crop=smart&auto=webp&s=ffc8c8fe8ca87b6b6f9ee3790db5cb3c94cf8b3c" alt="">
+    <img width="100px" height="100px" onclick="i_phone()" src="https://www.t-mobile.com/dialed-in/_admin/uploads/2023/06/black-iphone-14-and-yellow-iphone-14-pro-640x448.png" alt="">
+    <img width="100px" height="100px" onclick="_phone()" src="data:image/jpeg;base64,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" alt="">
+    <img width="100px" height="100px" onclick="iphone()" src="https://w7.pngwing.com/pngs/239/1020/png-transparent-apple-rose-gold-telephone-iphone-5s-unlocked-apple-mobile-phone-case-mobile-phone-fruit-nut.png" alt="">
+    
+    
+     -->
+<!--     
+    
+     
+     <table id="studentTable">
+         <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Age</th>
+                 <th>Grade</th>
+                 <th>Action</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>John</td>
+                 <td>18</td>
+                 <td>A</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Mark</td>
+                 <td>19</td>
+                 <td>B</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Emma</td>
+                 <td>20</td>
+                 <td>A</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Lucy</td>
+                 <td>21</td>
+                 <td>B</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Michael</td>
+                 <td>22</td>
+                 <td>C</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Sophia</td>
+                 <td>23</td>
+                 <td>A</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>James</td>
+                 <td>24</td>
+                 <td>B</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Olivia</td>
+                 <td>25</td>
+                 <td>A</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>William</td>
+                 <td>26</td>
+                 <td>C</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+             <tr>
+                 <td>Ava</td>
+                 <td>27</td>
+                 <td>B</td>
+                 <td><button onclick="deleteRow(this)">Delete</button></td>
+             </tr>
+         </tbody>
+     </table>
+
+      -->
+     
+        <!-- <img id="hoverImage"  style="width: 200px;"  -->
+     <!-- src="https://www.kfcpakistan.com/images/33685b40-0461-11ee-911c-497570899609-Mighty_variant_0-2023-06-06115641.png"  -->
+     <!-- "> --> 
+<!--           
+    <div id="counter">0</div>
+    <button id="increase">Increase</button>
+    <button id="decrease">Decrease</button> -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
